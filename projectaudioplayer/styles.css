@@ -1,0 +1,98 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  /*font-family: 'Raleway', sans-serif;*/
+  height: 100vh;
+  margin: .5em 5em;
+  background-image: url(iTunesBackground.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding: .5em;
+  text-align: center;
+  margin-bottom: 1.5em;
+  background-color: #fe4a53;
+  color: white;
+  border-radius: .2em;
+}
+
+h3 {
+  width: 100%;
+}
+
+audio {
+  width: 100%;
+  border: .2em solid #fe4a53;
+  border-radius: .2em;
+}
+
+input {
+  border-radius: .2em;
+  width: 85%;
+  height: 2em;
+  font-size: 20px;
+  margin-left: -1em;
+}
+
+button {
+  border-radius: .5em;
+  width: 8em;
+  height: 2.5em;
+  margin-left: 1.6em;
+  background-color: #fe4a53;
+  color: white;
+  font-size: 16px;
+}
+
+img {
+  border: .05em solid white;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  margin: 3em;
+  text-align: center;
+  width: 8em;
+  height: auto;
+  background-color: #fe4a53;
+  border-radius: .2em;
+  border: .05em solid black;
+  padding: 1em;
+}
+
+hr {
+  margin: 2em 0;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr1 {
+  height: 30px;
+  border-style: solid;
+  border-color: #fe4a53;
+  border-width: 2.5px 0 0 0;
+  border-radius: 20px;
+}
+
+.hr2 {
+  height: 30px;
+  border-style: solid;
+  border-color: #fe4a53;
+  border-width: 0 0 2.5px 0;
+  border-radius: 20px;
+}
